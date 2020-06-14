@@ -1,0 +1,378 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+header {
+  background-image: url("img/header-img.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+header .container nav {
+  background-color: transparent !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+  header .container nav {
+    margin-bottom: 50px;
+  }
+}
+
+header .container nav .nav-item {
+  color: white !important;
+}
+
+header .container .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .container .heading h1 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  header .container .heading h1 {
+    font-size: 30px;
+  }
+}
+
+header .container .heading h2 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  header .container .heading h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+}
+
+header .container .heading .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 300px;
+}
+
+@media only screen and (max-width: 500px) {
+  header .container .heading .social-media {
+    margin-bottom: 150px;
+  }
+}
+
+header .container .heading .social-media .facebook {
+  background-image: url("img/icons/facebook.png");
+}
+
+header .container .heading .social-media .instagram {
+  background-image: url("img/icons/instagram.png");
+}
+
+header .container .heading .social-media .icons {
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header .profile-picture img {
+  max-width: 300px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border: 10px solid white;
+}
+
+@media only screen and (max-width: 500px) {
+  header .profile-picture img {
+    max-width: 200px;
+    border: 5px solid white;
+  }
+}
+
+#about .personal-details {
+  text-align: center;
+}
+
+#about .personal-details h3 {
+  font-family: 'Dancing Script', cursive;
+}
+
+#about .personal-details h4 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#about .row .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#about .row img {
+  max-width: 50px;
+}
+
+.progress-section {
+  background-image: url("/img/progress-section.jpg");
+  margin-bottom: 30px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.progress-section h4 {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .progress-section h4 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+.progress-section .progress-heading {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  .progress-section .progress-heading {
+    margin-bottom: 20px;
+  }
+}
+
+.progress-section .progress-heading h3 {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.progress-section .progress-heading h4 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 992px) {
+  .progress-section .progress-heading h4 {
+    font-size: 20px;
+  }
+}
+
+.progress-section .progress {
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  .progress-section .progress {
+    margin-bottom: 10px;
+    height: 20px;
+  }
+}
+
+.progress-section .progress .progress-bar {
+  background-color: #25b492;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .progress-section .progress .progress-bar {
+    font-size: 14px;
+  }
+}
+
+.resume .resume-heading {
+  margin-bottom: 40px;
+}
+
+.resume .resume-heading h3 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.resume .resume-heading h4 {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.resume .education-div {
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .resume .education-div {
+    margin-bottom: 30px;
+  }
+}
+
+.resume .education-div .education {
+  border: 1px solid #25b492;
+  border-radius: 10%;
+  padding: 15px;
+  color: #25b492;
+}
+
+.resume .school {
+  text-transform: uppercase;
+  float: left;
+  border-right: 1px solid  #25b492;
+}
+
+@media only screen and (max-width: 768px) {
+  .resume .school {
+    border-right: unset;
+  }
+}
+
+.resume .school .years-of-school {
+  font-size: large;
+  font-weight: bold;
+  border-bottom: 1px solid #25b492;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .resume .school .years-of-school {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.resume .school .name-of-school {
+  font-weight: bold;
+}
+
+.resume .school .jums {
+  font-size: smaller;
+}
+
+.resume .about-school {
+  float: left;
+}
+
+.resume .work-div {
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .resume .work-div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.resume .work-div .work {
+  border: 1px solid #25b492;
+  border-radius: 10%;
+  padding: 15px;
+  color: #25b492;
+  margin-bottom: 40px;
+}
+
+.resume .army {
+  text-transform: uppercase;
+  float: left;
+  border-right: 1px solid  #25b492;
+}
+
+@media only screen and (max-width: 768px) {
+  .resume .army {
+    border-right: unset;
+  }
+}
+
+.resume .army .years-of-job {
+  font-size: large;
+  font-weight: bold;
+  border-bottom: 1px solid #25b492;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .resume .army .years-of-job {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.resume .army .job-description {
+  font-weight: bold;
+}
+
+.resume .army .firm-name {
+  font-size: smaller;
+}
+
+.resume .last-div {
+  float: left;
+}
+/*# sourceMappingURL=style.css.map */
