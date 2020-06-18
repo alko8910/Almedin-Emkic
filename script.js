@@ -1,11 +1,12 @@
-$(document).ready(function(){
+(function($){  
+  $(document).ready(function(){
     // Add smooth scrolling to all links   
-    $("a").on('click', function(event) {
+    $("a").on('click', function(event) { 
   
       // Make sure this.hash has a value before overriding default behavior
       if (this.hash !== "") {
         // Prevent default anchor click behavior
-        event.preventDefault();
+        event.preventDefault(); 
   
         // Store hash
         var hash = this.hash;
@@ -20,5 +21,6 @@ $(document).ready(function(){
           window.location.hash = hash;
         });
       } // End if
-    });
+    }); 
   });
+})
