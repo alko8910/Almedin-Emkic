@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -38,6 +39,7 @@ body {
                 font-weight: bold;
                 font-size: 40px;
                 text-align: center;
+                padding-bottom: 35px;
                 @media only screen and (max-width: 500px) {
                     font-size: 30px;
                   }
@@ -59,15 +61,18 @@ body {
                  width: 150px;
                  justify-content: space-evenly;
                  margin-bottom: 300px;
+                 color: white;
+                 
                  @media only screen and (max-width: 500px) {
                     margin-bottom: 150px;
                   }
                 .facebook {
-                    background-image: url('img/icons/facebook.png');
+                    background-image: url('img/icons/facebook.svg');
+                    color: white;
                     
                 }
                 .instagram {
-                  background-image: url('img/icons/instagram.png');
+                  background-image: url('img/icons/instagram-sketched.svg');
                 }
               
                 .icons {
@@ -77,6 +82,8 @@ body {
                     background-size: contain;
                     background-repeat: no-repeat;
                     background-position: center center;
+                    color: white;
+                    
                     
                 }
              }
@@ -212,6 +219,12 @@ body {
             color:  #25b492;
             
         }
+        .education:hover{
+            background-color: #25b492;
+            color: white;
+            transition: 0.3s;
+            text-decoration: none;
+        }
     }
     .school{
        text-transform: uppercase;
@@ -258,6 +271,12 @@ body {
             color:  #25b492;
             margin-bottom: 40px;
 
+        }
+        .work:hover{
+            background-color: #25b492;
+            color: white;
+            transition: 0.3s;
+            text-decoration: none;
         }
     }
     .army{

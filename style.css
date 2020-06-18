@@ -52,6 +52,7 @@ header .container .heading h1 {
   font-weight: bold;
   font-size: 40px;
   text-align: center;
+  padding-bottom: 35px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -87,6 +88,7 @@ header .container .heading .social-media {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-bottom: 300px;
+  color: white;
 }
 
 @media only screen and (max-width: 500px) {
@@ -96,11 +98,12 @@ header .container .heading .social-media {
 }
 
 header .container .heading .social-media .facebook {
-  background-image: url("img/icons/facebook.png");
+  background-image: url("img/icons/facebook.svg");
+  color: white;
 }
 
 header .container .heading .social-media .instagram {
-  background-image: url("img/icons/instagram.png");
+  background-image: url("img/icons/instagram-sketched.svg");
 }
 
 header .container .heading .social-media .icons {
@@ -110,6 +113,7 @@ header .container .heading .social-media .icons {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  color: white;
 }
 
 header .profile-picture img {
@@ -279,6 +283,14 @@ header .profile-picture img {
   color: #25b492;
 }
 
+.resume .education-div .education:hover {
+  background-color: #25b492;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
 .resume .school {
   text-transform: uppercase;
   float: left;
@@ -335,6 +347,14 @@ header .profile-picture img {
   padding: 15px;
   color: #25b492;
   margin-bottom: 40px;
+}
+
+.resume .work-div .work:hover {
+  background-color: #25b492;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
 .resume .army {
